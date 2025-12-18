@@ -1,0 +1,145 @@
+/* =====================================================
+   GLOBAL BASE
+===================================================== */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fa;   /* soft light background */
+    color: #243333;
+}
+
+/* =====================================================
+   LOGO FRAME
+===================================================== */
+body.logo-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #000814, #001d3d);
+}
+
+/* Logo image fits neatly */
+body.logo-frame img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* =====================================================
+   MAIN HEADING FRAME
+===================================================== */
+h1 {
+    margin: 0;
+    padding: 18px;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.6px;
+    background: linear-gradient(90deg, #1b3a4b, #2c7da0);
+    color: #ffffff;
+}
+
+/* =====================================================
+   CENTER FRAME TITLE
+===================================================== */
+h2 {
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    font-size: 22px;
+    background-color: #e9f1f7;
+    color: #1b3a4b;
+    border-bottom: 2px solid #bcd4e6;
+}
+
+/* =====================================================
+   COMMON BUTTON STYLE
+   (Center + Frame 4)
+===================================================== */
+a {
+    display: inline-block;
+    margin: 10px 12px;
+    padding: 12px 30px;
+    border-radius: 999px;            /* cylindrical */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1b3a4b;
+    background: linear-gradient(135deg, #ffffff, #eef6fb);
+    border: 1px solid #9ecae1;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+a:hover {
+    background: linear-gradient(135deg, #2c7da0, #1b4965);
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+/* =====================================================
+   LEFT MENU (FRAME 4)
+===================================================== */
+ul {
+    list-style: none;
+    padding: 18px;
+    margin: 0;
+}
+
+ul li a {
+    display: block;                 /* vertical stack */
+    margin: 16px 0;
+    text-align: center;
+}
+
+/* =====================================================
+   CONTENT FRAME (FRAME 5)
+===================================================== */
+h3 {
+    margin-top: 20px;
+    color: #1b3a4b;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* =====================================================
+   TABLE STYLING
+===================================================== */
+table {
+    width: 92%;
+    margin: 22px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cfdce8;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(135deg, #e9f1f7, #d6e6f2);
+    color: #1b3a4b;
+    font-weight: 700;
+}
+
+/* =====================================================
+   HORIZONTAL RULE
+===================================================== */
+hr {
+    border: none;
+    border-top: 1px solid #cfdce8;
+    margin: 24px 0;
+}
